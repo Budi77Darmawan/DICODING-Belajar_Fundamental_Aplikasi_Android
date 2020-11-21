@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:iconSpaceReserved="false">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_alarms"
+        android:key="@string/key_reminder"
+        android:title="@string/is_reminder"
+        app:iconSpaceReserved="false" />
+
+    <ListPreference
+        android:icon="@drawable/ic_g_translate"
+        android:key="@string/key_language"
+        android:title="@string/language"
+        app:defaultValue="en"
+        app:entries="@array/reply_entries"
+        app:entryValues="@array/reply_values"
+        app:summary="@string/language_en"/>
+
+</PreferenceScreen>

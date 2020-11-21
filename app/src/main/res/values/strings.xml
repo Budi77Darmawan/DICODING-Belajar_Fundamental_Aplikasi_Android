@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fundamental Android</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="submission">S U B M I S S I O N</string>
+    <string name="subtittle">Learn Android Application Fundamentals</string>
+    <string name="github_user_s">Github User\'s</string>
+    <string name="username">Username</string>
+    <string name="type_user">Type User</string>
+    <string name="desc_search">Waiting to search!</string>
+    <string name="desc_search2">Search results will appear here</string>
+    <string name="search_not_found">Users not found!</string>
+    <string name="desc_not_found">Please check the search username again</string>
+    <string name="detail_user">Detail User</string>
+    <string name="full_name">Full Name</string>
+    <string name="address">City Address</string>
+    <string name="company_name">Company Name</string>
+    <string name="desc_followers">Has no followers yet</string>
+    <string name="desc_following">Hasn\'t followed anyone yet</string>
+    <string name="change_language">Change Language</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite">Favorite</string>
+    <string name="add_user_favorite">Success add user to favorite</string>
+    <string name="failed_add_user_favorite">Failed add user to favorite</string>
+    <string name="delete_user_favorite">Success delete user from favorite</string>
+    <string name="failed_delete_user_favorite">Failed delete user from favorite</string>
+    <string name="favorite_user">Favorite User</string>
+    <string name="desc_fav">Favorite users don\'t exist yet</string>
+    <string name="desc_fav2">a list of favorite users will appear here</string>
+    <string name="setting">Setting</string>
+
+    <string name="key_reminder">reminder</string>
+    <string name="is_reminder">Reminder at 09.00 AM</string>
+    <string name="key_language">language</string>
+    <string name="language">Select Language</string>
+    <string name="language_en">English</string>
+    <string name="language_id">Indonesia</string>
+
+    <string-array name="reply_entries">
+        <item>English</item>
+        <item>Bahasa Indonesia</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>en</item>
+        <item>in</item>
+    </string-array>
+
+    <string name="tittle_alarm">Daily Reminder</string>
+    <string name="message_alarm">Let\'s go back to the application</string>
+    <string name="active_alarm">Reminder alarm is active</string>
+    <string name="inactive_alarm">Reminder alarm is off</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

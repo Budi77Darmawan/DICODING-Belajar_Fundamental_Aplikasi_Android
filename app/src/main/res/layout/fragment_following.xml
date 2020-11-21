@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".detail.viewpager.FollowingFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_following"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="15dp"
+            tools:listitem="@layout/item_list_users" />
+
+        <TextView
+            android:id="@+id/desc_following"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/desc_following"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="italic"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"/>
+
+    </FrameLayout>
+</layout>

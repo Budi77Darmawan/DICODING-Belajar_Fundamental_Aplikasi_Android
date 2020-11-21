@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".favorite.FavoriteFragment">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_btn_back"
+                tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/btn_back"
+                    android:paddingHorizontal="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/favorite_user"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="RelativeOverlap" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_users"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            tools:listitem="@layout/item_list_users" />
+
+        <ImageView
+            android:id="@+id/img_fav"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/il_home_search_not_found"
+            app:layout_constraintBottom_toTopOf="@+id/desc_fav"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/desc_fav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/desc_fav"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_fav" />
+
+        <TextView
+            android:id="@+id/desc_fav2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/desc_fav2"
+            app:layout_constraintTop_toBottomOf="@id/desc_fav" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

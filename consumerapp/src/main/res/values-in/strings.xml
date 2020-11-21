@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ConsumerApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="submission">S U B M I S S I O N</string>
+    <string name="subtittle">Belajar Fundamental Aplikasi Android</string>
+    <string name="github_user_s">Pengguna Github</string>
+    <string name="username">Nama pengguna</string>
+    <string name="type_user">Tipe pengguna</string>
+    <string name="desc_search">Menunggu pencarian!</string>
+    <string name="desc_search2">Hasil pencarian akan tampil disini</string>
+    <string name="search_not_found">Nama pengguna tidak ditemukan!</string>
+    <string name="desc_not_found">Silakan periksa kembali nama pengguna di pencarian</string>
+    <string name="detail_user">Detail Pengguna</string>
+    <string name="full_name">Nama lengkap</string>
+    <string name="address">Alamat</string>
+    <string name="company_name">Nama kantor</string>
+    <string name="desc_followers">Belum memiliki pengikut</string>
+    <string name="desc_following">Belum mengikuti siapa pun</string>
+    <string name="change_language">Pengaturan bahasa</string>
+    <string name="following">Mengikuti</string>
+    <string name="followers">Pengikut</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite">Favorit</string>
+    <string name="add_user_favorite">Berhasil menambahkan pengguna ke favorit</string>
+    <string name="failed_add_user_favorite">Gagal menambahkan pengguna ke favorit</string>
+    <string name="delete_user_favorite">Berhasil menghapus pengguna dari favorit</string>
+    <string name="failed_delete_user_favorite">Gagal menghapus pengguna dari favorit</string>
+    <string name="favorite_user">Pengguna Favorit</string>
+    <string name="desc_fav">Pengguna favorit belum ada</string>
+    <string name="desc_fav2">Daftar pengguna favorit akan muncul di sini</string>
+</resources>
