@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Fundamental Android</string>
+    <string name="app_name">Github User</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="submission">S U B M I S S I O N</string>
     <string name="subtittle">Learn Android Application Fundamentals</string>
@@ -23,9 +23,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="favorite">Favorite</string>
-    <string name="add_user_favorite">Success add user to favorite</string>
+    <string name="add_user_favorite">Add user to favorite</string>
     <string name="failed_add_user_favorite">Failed add user to favorite</string>
-    <string name="delete_user_favorite">Success delete user from favorite</string>
+    <string name="delete_user_favorite">Delete user from favorite</string>
     <string name="failed_delete_user_favorite">Failed delete user from favorite</string>
     <string name="favorite_user">Favorite User</string>
     <string name="desc_fav">Favorite users don\'t exist yet</string>

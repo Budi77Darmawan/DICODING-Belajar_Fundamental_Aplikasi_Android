@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Fundamental Android</string>
+    <string name="app_name">Github User</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="submission">S U B M I S S I O N</string>
     <string name="subtittle">Belajar Fundamental Aplikasi Android</string>
@@ -23,9 +23,9 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="favorite">Favorit</string>
-    <string name="add_user_favorite">Berhasil menambahkan pengguna ke favorit</string>
+    <string name="add_user_favorite">Menambahkan pengguna ke favorit</string>
     <string name="failed_add_user_favorite">Gagal menambahkan pengguna ke favorit</string>
-    <string name="delete_user_favorite">Berhasil menghapus pengguna dari favorit</string>
+    <string name="delete_user_favorite">Menghapus pengguna dari favorit</string>
     <string name="failed_delete_user_favorite">Gagal menghapus pengguna dari favorit</string>
     <string name="favorite_user">Pengguna Favorit</string>
     <string name="desc_fav">Pengguna favorit belum ada</string>
@@ -53,4 +53,6 @@
     <string name="message_alarm">Mari kembali ke aplikasi</string>
     <string name="active_alarm">Alarm pengingat aktif</string>
     <string name="inactive_alarm">Alarm pengingat tidak aktif</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 </resources>
